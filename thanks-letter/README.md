@@ -5,13 +5,13 @@
 
 以聊天交互的方式向女朋友表达想说的话，支持便捷的内容配置，急速替换为自己想要的内容，点击下方链接预览效果。
 
-- 国内用户访问：[https://sg.chenjianhui.site/girlfriend-gift-collection/chat-want-to-say/](https://sg.chenjianhui.site/girlfriend-gift-collection/chat-want-to-say/)
-- Github Pages: [https://calebman.github.io/girlfriend-gift-collection/chat-want-to-say/](https://calebman.github.io/girlfriend-gift-collection/chat-want-to-say/)
+- 国内用户访问：[https://sg.chenjianhui.site/girlfriend-gift-collection/thanks-letter/](https://sg.chenjianhui.site/girlfriend-gift-collection/thanks-letter/)
+- Github Pages: [https://calebman.github.io/girlfriend-gift-collection/thanks-letter/](https://calebman.github.io/girlfriend-gift-collection/thanks-letter/)
 # 如何修改为自己的内容
 
 ### 一. 修改配置文件
 
-> 项目 chat-want-to-say 根目录中的 .env.* 为环境配置文件，默认打包使用 .env.production 配置，配置内容如下所示：
+> 项目 thanks-letter 根目录中的 .env.* 为环境配置文件，默认打包使用 .env.production 配置，配置内容如下所示：
 > 
 
 | 配置项                 | 含义                 | 备注                                                   |
@@ -165,7 +165,7 @@ VLog内容示例如下所示，视频文件放到 public 目录下，使用相�
 #### 1. 调试
 
 ```bash
-cd chat-want-to-say
+cd thanks-letter
 yarn dev
 # see http://localhost:3000/
 ```
@@ -183,5 +183,5 @@ anywhere
 ### 四. 部署至静态服务器
 
 ```bash
-scp -r chat-want-to-say/dist/** root@domain:/nginx-html/
+scp -r thanks-letter/dist/** root@domain:/nginx-html/
 ```
