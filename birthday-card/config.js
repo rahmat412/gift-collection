@@ -7,8 +7,8 @@ var config = {
         "Dear girl", // ditto...
         "Today is your birthday",
         "This is what we are together",
-        "Third birthday!",
-        "For the past two years, I have seen you",
+        "23rd birthday!",
+        "yeayy",
         "strange look",
         "cute look",
         "look angry",
@@ -32,7 +32,7 @@ var config = {
         "Dear girl": "./imgs/2.jpg",
         "Today is your birthday": "./imgs/3.jpg",
         "This is what we are together": "./imgs/4.jpg",
-        "Third birthday!": "./imgs/5.jpg",
+        "23rd birthday!": "./imgs/5.jpg",
         "In the past two years, I have seen you": "./imgs/6.jpg",
         "Strange look": "./imgs/7.jpg",
         "Cute look": "./imgs/8.jpg",
@@ -52,7 +52,7 @@ var config = {
         balloons_flying: "Yeayyy, Selamat Ulang Tahun yg ke-23 ya",
         cake_fadein: "Kuenya mana?",
         light_candle: "Ini lilinnya juga mana?",
-        wish_message: "Belum disiapin ternyata hahaha",
+        wish_message: "Make a Wish",
         story: "A MESSAGE FOR YOU"
     },
 
