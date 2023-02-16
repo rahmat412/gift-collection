@@ -8,7 +8,7 @@
             "options": {
                 "resolveKeyTexts": [],
                 "rejectKeyTexts": [],
-                "rejectHitTexts": ["Mudah-mudahan baik-baik aja"]
+                "rejectHitTexts": ["Semoga baik-baik aja"]
             }
         }
     },
@@ -39,7 +39,7 @@
             "options": {
                 "resolveKeyTexts": [],
                 "rejectKeyTexts": [],
-                "rejectHitTexts": ["Sorry ya, jadi kemana-mana hehehe"]
+                "rejectHitTexts": ["Sorry, jadi kemana-mana"]
             }
         }
     },
