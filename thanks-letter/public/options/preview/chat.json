@@ -8,7 +8,7 @@
             "options": {
                 "resolveKeyTexts": [],
                 "rejectKeyTexts": [],
-                "rejectHitTexts": ["Mudah-mudahan kabarmu baik-baik saja"]
+                "rejectHitTexts": ["Mudah-mudahan baik-baik saja"]
             }
         }
     },
@@ -17,25 +17,29 @@
         "msgInputSpeed": 80
     },
     {
-        "msgs": ["Intinya Terima kasih ya buat 6 bulannya 💙, udah ngajak aku main dan nyobain beberapa hal walaupun belum semuanya diexplore karena mungkin kita ada kesibukannya masing-masing. Aku kira ini akan bertahan lebih lama ya aku udah gabisa maksa kamu lagi."],
+        "msgs": ["Intinya Terima kasih ya buat 6 bulannya 💙, udah ngajak aku main dan nyobain beberapa hal walaupun belum semuanya diexplore karena mungkin kita ada kesibukannya masing-masing. Kalau main ajak-ajak lagi ya hehehe"],
         "msgInputSpeed": 80
     },
     {
-        "msgs": ["Dan Mungkin aku orang yg tepat buat kamu", "Dan Mungkin aku bukan orang yg tepat buat kamu :(, ya mudah-mudahan kamu dapat yg lebih baik dari aku yg sekarang ini"],
+        "msgs": ["Aku kira ini akan bertahan lebih lama tapi ya aku udah gabisa maksa kamu lagi"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["Dan mungkin aku orang yg tepat buat kamu", "Dan mungkin aku bukan orang yg tepat buat kamu :(, ya mudah-mudahan kamu dapat yg lebih baik dari aku yg sekarang ini"],
         "msgInputSpeed": 80
     },
     { "msgs": ["Aku sedikit menyesal sama diriku ini, ya aku jadi banyak belajar dari pengalaman ini"], "msgInputSpeed": 80 },
     { "msgs": ["Fun Fact: Aku kayaknya kalau lagi gini pelariannya jadi ke ngoding, padahal pas kamu ceritain temanmu yg gitu dan kamu nanya ke aku, akunya denial 'kayaknya aku ga gitu deh kalau lagi berantem'."], "msgInputSpeed": 80 },
-    { "msgs": ["Ternyata Beneran dong! Aku jadi beneran project yg kemarin kubilang kemarin. Itu bisa selesai dalam seminggu"], "msgInputSpeed": 80 },
+    { "msgs": ["Ternyata Beneran dong! Aku jadi nyelesain project yg kemarin kubilang dalam seminggu"], "msgInputSpeed": 80 },
     {
-        "msgs": ["Aneh Ga?"],
+        "msgs": ["Aneh ya wkwkkw?"],
         "msgInputSpeed": 80,
         "triggerNextAction": {
             "type": "userInput",
             "options": {
                 "resolveKeyTexts": [],
                 "rejectKeyTexts": [],
-                "rejectHitTexts": ["Maaf ya, jadi kemana-mana hahaha"]
+                "rejectHitTexts": ["Sorry ya, jadi kemana-mana hehehe"]
             }
         }
     },
@@ -44,7 +48,7 @@
         "triggerNextAction": { "type": "componentClose" }
     },
     {
-        "msgs": ["Makasih ya udah ngikutin ini sampai akhir, Good Bye"],
+        "msgs": ["Thank You ya udah ngikutin chatnya sampai akhir, Good Bye"],
         "msgInputSpeed": 80
     }
 ]
