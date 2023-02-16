@@ -10,9 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@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
+      - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          lfs: true
+          token: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v1
