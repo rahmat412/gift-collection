@@ -1,0 +1,54 @@
+[
+    { "msgs": ["Hi, Thasya"], "msgInputSpeed": 80 },
+    {
+        "msgs": ["Apa Kabar?"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": [],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": ["Semoga baik-baik aja"]
+            }
+        }
+    },
+    {
+        "msgs": ["Hmm gimana ya"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["Intinya Terima kasih ya buat 6 bulannya 💙, udah ngajak aku main dan nyobain beberapa hal walaupun belum semuanya diexplore karena mungkin kita ada kesibukannya masing-masing. Kalau main ajak-ajak lagi ya hehehe"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["Aku kira ini akan bertahan lebih lama tapi ya aku udah gabisa maksa kamu lagi"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["Dan mungkin aku orang yg tepat buat kamu", "Dan mungkin aku bukan orang yg tepat buat kamu :(, ya mudah-mudahan kamu dapat yg lebih baik dari aku yg sekarang ini"],
+        "msgInputSpeed": 80
+    },
+    { "msgs": ["Aku sedikit menyesal sama diriku ini, ya aku jadi banyak belajar dari pengalaman ini"], "msgInputSpeed": 80 },
+    { "msgs": ["Fun Fact: Aku kayaknya kalau lagi gini pelariannya jadi ke ngoding, padahal pas kamu ceritain temanmu yg gitu dan kamu nanya ke aku, akunya denial 'kayaknya aku ga gitu deh kalau lagi berantem'."], "msgInputSpeed": 80 },
+    { "msgs": ["Ternyata Beneran dong! Aku jadi nyelesain project yg kemarin kubilang dalam seminggu"], "msgInputSpeed": 80 },
+    {
+        "msgs": ["Aneh ya wkwkkw?"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": [],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": ["Sorry, jadi kemana-mana"]
+            }
+        }
+    },
+    {
+        "msgs": ["<letter src='options/preview/letter.json'/>"],
+        "triggerNextAction": { "type": "componentClose" }
+    },
+    {
+        "msgs": ["Thank You ya udah ngikutin chatnya sampai akhir, Good Bye"],
+        "msgInputSpeed": 80
+    }
+]
